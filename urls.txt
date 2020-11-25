@@ -1,0 +1,13 @@
+https://www.baidu.com
+https://www.baidu.com/s?ie=UTF-8&wd=justjavac
+https://www.csdn.net
+http://gitee.io
+https://github.com
+https://github.com/justjavac
+https://google.com
+https://www.google.com/search?q=justjavac
+https://juejin.cn
+https://www.oschina.net
+https://segmentfault.com
+https://www.youtube.com
+https://www.zhihu.com/hot
