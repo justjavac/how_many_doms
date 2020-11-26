@@ -2,14 +2,11 @@ name: schedule
 
 on:
   schedule:
-    - cron: "0 4 * * *"
+    - cron: "0 0 * * *"
 
 jobs:
   build:
     runs-on: ubuntu-latest
-
-    env:
-      TZ: Asia/Shanghai
 
     steps:
       - name: Clone repository
@@ -26,5 +23,5 @@ jobs:
           git pull --rebase
           deno run --unstable --allow-net --allow-read --allow-write --import-map=import_map.json mod.ts
           git add .
-          git commit -m "update by github action"
+          git commit -m "update $(date '+%Y-%m-%d')"
           git push
