@@ -16,7 +16,7 @@ export async function createReadme(words: Item[]): Promise<string> {
 
 export function createList(words: Item[]): string {
   return `<!-- BEGIN -->
-Last updated at  ${new Date().toISOString()}\n
+Last updated at ${new Date().toISOString()}\n
 url | doms
 :- | -:
 ${words.map((x) => `${x.url} | ${x.doms}`).join("\n")}
