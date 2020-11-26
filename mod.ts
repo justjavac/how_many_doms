@@ -14,6 +14,7 @@ const result: Item[] = await Promise.all(urls.map(async (url) => {
     if (!response.ok) {
       const doms = -1;
       const error = response.statusText;
+      console.error("%s: %s", url, error);
       return { url, doms, error };
     }
 
@@ -22,6 +23,8 @@ const result: Item[] = await Promise.all(urls.map(async (url) => {
     return { url, doms };
   } catch (ex) {
     const error = (ex as Error).message;
+    console.error("%s: %s", url, error);
+    console.error((ex as Error).stack);
     return { url, doms: -1, error };
   }
 }));
