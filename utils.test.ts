@@ -12,21 +12,21 @@ import {
 
 Deno.test("createList", function (): void {
   const words: Item[] = [
-    { url: "bar", divs: 1, doms: 2 },
-    { url: "world", divs: 3, doms: 4 },
+    { url: "bar", doms: 2 },
+    { url: "world", doms: 4 },
   ];
 
   assertStringIncludes(createList(words), "<!-- BEGIN -->");
   assertStringIncludes(createList(words), "<!-- END -->");
   assertStringIncludes(createList(words), "bar");
   assertStringIncludes(createList(words), "world");
-  assertStringIncludes(createList(words), "3");
+  assertStringIncludes(createList(words), "4");
 });
 
 Deno.test("createArchive", function (): void {
   const words: Item[] = [
-    { url: "bar", divs: 1, doms: 2 },
-    { url: "world", divs: 3, doms: 4 },
+    { url: "bar", doms: 2 },
+    { url: "world", doms: 4 },
   ];
 
   assertStringIncludes(createArchive(words, "2020-02-02"), "# 2020-02-02");
@@ -34,14 +34,14 @@ Deno.test("createArchive", function (): void {
 
 Deno.test("createReadme", async function (): Promise<void> {
   const words: Item[] = [
-    { url: "bar", divs: 1, doms: 2 },
-    { url: "world", divs: 3, doms: 4 },
+    { url: "bar", doms: 2 },
+    { url: "world", doms: 4 },
   ];
 
   assertStringIncludes(await createReadme(words), "<!-- BEGIN -->");
   assertStringIncludes(
     await createReadme(words),
-    "how_many_divs",
+    "how_many_doms",
   );
 });
 

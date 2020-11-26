@@ -1,6 +1,5 @@
 import type { Item } from "./types.ts";
 
-/** 从 urls.txt 文件中读取所有的 url */
 export async function getUrls(): Promise<string[]> {
   const content = await Deno.readTextFile("./urls.txt");
   return content.split("\n").filter((x) => isUrl(x));
@@ -17,13 +16,10 @@ export async function createReadme(words: Item[]): Promise<string> {
 
 export function createList(words: Item[]): string {
   return `<!-- BEGIN -->
-<!-- 最后更新时间 ${Date()} -->
-url | divs | doms
-:- | -: | -:
-${
-    words.map((x) => `${x.url} | ${x.divs} | ${x.doms}`)
-      .join("\n")
-  }
+Last updated at  ${new Date().toISOString()}\n
+url | doms
+:- | -:
+${words.map((x) => `${x.url} | ${x.doms}`).join("\n")}
 <!-- END -->`;
 }
 
