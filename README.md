@@ -6,22 +6,22 @@
 [Archives](./archives) the number of doms in the website every day, using GitHub Actions.
 
 <!-- BEGIN -->
-Last updated at 2026-10-28T05:17:01.829Z
+Last updated at 2026-10-29T05:27:57.612Z
 
 url | doms
 :- | -:
-https://www.sina.com.cn | 3042
-https://en.wikipedia.org/wiki/Main_Page | 2365
-https://www.yahoo.com | 2067
+https://www.sina.com.cn | 3044
+https://en.wikipedia.org/wiki/Main_Page | 2318
+https://www.yahoo.com | 2032
 http://xinhuanet.com | 1933
 https://zoom.us | 1874
-https://www.shopify.com | 1726
+https://www.shopify.com | 1738
 https://www.360.cn | 1536
 https://www.wikipedia.org | 1231
-https://www.microsoft.com | 1181
+https://www.microsoft.com | 1182
 https://www.office.com | 982
 https://www.netflix.com | 897
-https://www.sohu.com | 751
+https://www.sohu.com | 812
 https://www.okezone.com | 695
 https://www.jd.com/?country=USA | 653
 https://www.qq.com | 511
