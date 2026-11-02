@@ -6,29 +6,29 @@
 [Archives](./archives) the number of doms in the website every day, using GitHub Actions.
 
 <!-- BEGIN -->
-Last updated at 2026-11-01T05:42:17.658Z
+Last updated at 2026-11-02T05:40:38.797Z
 
 url | doms
 :- | -:
-https://www.sina.com.cn | 3034
-https://en.wikipedia.org/wiki/Main_Page | 2334
-https://www.yahoo.com | 2008
-http://xinhuanet.com | 1929
+https://www.sina.com.cn | 3040
+https://en.wikipedia.org/wiki/Main_Page | 2353
+https://www.yahoo.com | 2015
+http://xinhuanet.com | 1926
 https://zoom.us | 1874
 https://www.shopify.com | 1731
 https://www.360.cn | 1536
-https://www.amazon.com | 1406
+https://www.amazon.com | 1390
 https://www.wikipedia.org | 1231
 https://www.microsoft.com | 1159
-https://www.office.com | 982
+https://www.office.com | 989
 https://www.netflix.com | 897
-https://www.sohu.com | 758
+https://www.sohu.com | 785
 https://www.okezone.com | 695
 https://www.jd.com/?country=USA | 653
-https://www.qq.com | 511
+https://www.qq.com | 520
 https://www.youtube.com | 419
 https://www.baidu.com | 404
-https://www.facebook.com | 360
+https://www.facebook.com | 363
 https://www.tmall.com | 300
 https://taobao.com | 292
 https://www.instagram.com | 236
