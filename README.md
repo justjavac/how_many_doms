@@ -6,36 +6,36 @@
 [Archives](./archives) the number of doms in the website every day, using GitHub Actions.
 
 <!-- BEGIN -->
-Last updated at 2026-11-02T05:40:38.797Z
+Last updated at 2026-11-03T06:21:20.448Z
 
 url | doms
 :- | -:
 https://www.sina.com.cn | 3040
-https://en.wikipedia.org/wiki/Main_Page | 2353
-https://www.yahoo.com | 2015
-http://xinhuanet.com | 1926
+https://en.wikipedia.org/wiki/Main_Page | 2339
+https://www.yahoo.com | 2084
+http://xinhuanet.com | 1937
 https://zoom.us | 1874
-https://www.shopify.com | 1731
+https://www.shopify.com | 1740
 https://www.360.cn | 1536
-https://www.amazon.com | 1390
+https://www.amazon.com | 1369
 https://www.wikipedia.org | 1231
-https://www.microsoft.com | 1159
-https://www.office.com | 989
+https://www.microsoft.com | 1162
+https://www.office.com | 990
 https://www.netflix.com | 897
-https://www.sohu.com | 785
+https://www.sohu.com | 738
 https://www.okezone.com | 695
 https://www.jd.com/?country=USA | 653
-https://www.qq.com | 520
+https://www.qq.com | 511
 https://www.youtube.com | 419
 https://www.baidu.com | 404
-https://www.facebook.com | 363
+https://www.facebook.com | 365
 https://www.tmall.com | 300
 https://taobao.com | 292
 https://www.instagram.com | 236
 https://panda.tv | 168
 https://www.google.com | 126
 https://vk.com | 112
-https://www.google.com/search?q=justjavac | 97
+https://www.google.com/search?q=justjavac | 102
 https://live.com | 71
 https://www.alipay.com | 40
 https://www.baidu.com/s?ie=UTF-8&wd=justjavac | 23
